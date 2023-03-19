@@ -10,7 +10,6 @@ restart: down up
 up:
 	$(DOCKER_COMP) up --detach
 
-
 down:
 	$(DOCKER_COMP) down --remove-orphans
 
